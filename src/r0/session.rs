@@ -3,6 +3,7 @@
 /// [POST /_matrix/client/r0/login](https://matrix.org/docs/spec/client_server/r0.2.0.html#post-matrix-client-r0-login)
 pub mod login {
     use ruma_api_macros::ruma_api;
+    use ruma_identifiers::UserId;
 
     ruma_api! {
         metadata {
